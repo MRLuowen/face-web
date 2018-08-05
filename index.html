@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>OpenCV.js Face Detection</title>
+</head>
+<body style="position: relative;">
+    <img src="hat.png" id="hat" style="display: none">
+    <canvas width="375" height="667" id="outputCanvas" style="width:100%;height: 100%;"></canvas>
+    <video  width="375" height="667" id="video" autoplay muted playsinline style="width: 1px;height: 1px;" ></video>
+    <p id="fps" style="position: absolute;left: 0;bottom: 0;z-index: 10; font-size:30px;color:red;"></p>
+    <script src="face.js"></script>
+    <script src="opencv/opencv_old.js"></script>
+</body>
+</html>
